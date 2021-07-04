@@ -1,0 +1,422 @@
+body
+{
+    margin: 0px 0px ;
+    padding: 0px 0px;
+    
+}
+
+.navbar1
+{
+    background: url("photo/background.jpg");
+    height: 600px;
+}
+.name
+{
+    color: white;
+    font-size: 30px;
+    margin: 23px 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.links ul{
+    list-style: none;
+    margin: 20px 50px;
+}
+.links ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+.links ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.photo img
+{
+    height: 180px;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    transition: all .2s ease-in-out;
+}
+.photo img:hover
+{
+    transform: scale(1.2);
+
+}
+.photo h1
+{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.photo h2{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.buttons button
+{
+    background-color: rgb(50, 131, 68);
+    color: white ;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 4px 0px;
+    transition: all .2s ease-in-out;
+
+}
+.buttons button:hover
+{
+    transform: scale(1.2);
+}
+.social-link
+{
+    display: flex;
+   /* border: 2px solid red;*/
+}
+.social-link ul
+{ padding: 10px;
+    width: 300px;
+    /*height: 30px;*/
+    margin: auto;
+    display: flex;
+}
+.social-item
+{
+    list-style: none;
+}
+.social-item a{
+    padding: 10px 20px;
+     font-size: 40px;
+     color: #6cccc6;
+     transition: all .25s;
+
+}
+.social-item a:hover
+{
+    color: #54a39e;
+}
+.data1
+{
+border: 3px solid rgb(101, 30, 168);
+border-radius: 6px;
+display: flex;
+}
+.biodata
+{
+     display: flex;
+     width:70%;
+     margin: auto;
+     margin-top: 80px;
+     flex-direction: column;
+    
+
+
+
+}
+.heading
+{
+    font-size: 1.9rem;
+    color: rgb(101, 30, 168);
+}
+.heading1
+{
+    font-size: 1.5rem;
+    color: rgb(101, 30, 168);
+    font-family: 'Roboto', sans-serif;
+}
+.about
+{width: 50%;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.basic
+{
+    padding: 20px;
+}
+.basic pre
+{
+    font-size: 1.2rem;
+    color: rgb(153, 119, 209);
+    font-family: 'Mate SC', serif;
+    
+}
+.skill
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(101, 30, 168);
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skill1
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.skill-left
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-right
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family : 'Bree Serif', serif;
+}
+.image
+{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    border: 3px solid rgb(93, 27, 116);
+   
+
+}
+.projects img 
+{
+    height: 140px;
+    
+}
+.project1
+{ height: 140px;
+    display: flex;
+    border: 3px solid rgb(93, 27, 116);
+    border-radius: 5px;
+    /* padding: 10px 10px; */
+    margin-top:15px;
+    margin-bottom: 15px;
+    background-color: rgb(203, 228, 251);
+}
+.link
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        font-family : 'Bree Serif', serif;
+        margin-bottom: 40px;
+}
+.project5
+{   
+
+    border: 2px solid black;
+    display: flex;
+}
+.link1
+{
+   
+    width: 75%;
+    padding: 15px 10px;
+}
+.year
+{
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    
+    width: 25%;
+    background-color: rgb(101, 30, 168);
+    color: white;
+}
+
+
+
+
+
+
+/* form css */
+.h-primary
+{
+
+	font-size: 3.8rem;
+	font-family : 'Bree Serif', serif;
+    text-align: center;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+   
+    justify-content: center;
+    
+    background: url("photo/comtect4.jpg") no-repeat center center/cover;
+}
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contect h1{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+#submitbtn
+{
+    padding: 13px 8px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.inner-footer
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: black;
+}
+.social-link
+{
+    display: flex;
+   /* border: 2px solid red;*/
+}
+.social-link ul
+{ padding: 10px;
+    width: 300px;
+    /*height: 30px;*/
+    margin: auto;
+    display: flex;
+}
+.social-item
+{
+    list-style: none;
+}
+.social-item a{
+    padding: 10px 20px;
+     font-size: 40px;
+     color: #6cccc6;
+     transition: all .25s;
+
+}
+.social-item a:hover
+{
+    color: #54a39e;
+}
+.quick-links
+{
+    display: flex;
+    width: 410px;
+    height: 70px;
+    margin: auto;
+}
+.quick-links ul
+{
+    display: flex;
+}
+.quick-item
+{
+    list-style: none;
+}
+.quick-item a
+{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+    transition: all .25;
+
+}
+.quick-item a:hover
+{
+    color: #6cccc6;
+}
+.outer
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
+
+
+
+
+
+
+.links button
+{
+    padding: 4px 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+     font-size: 17px;
+    font-weight: 700;
+}
+.links button:hover
+{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+}
